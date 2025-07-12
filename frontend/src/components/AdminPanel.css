@@ -1,0 +1,484 @@
+.admin-panel {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.admin-section {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+}
+
+h2, h3 {
+    color: #4CAF50;
+    text-shadow: 0 0 10px rgba(76, 175, 80, 0.3);
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 1em;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.5);
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover:not(:disabled) {
+    background: #45a049;
+    transform: scale(1.05);
+}
+
+button:disabled {
+    background: rgba(255, 255, 255, 0.1);
+    cursor: not-allowed;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+li {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tournament-settings {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.tournament-settings div {
+    margin-bottom: 15px;
+}
+
+.tournament-settings label {
+    display: block;
+    margin-bottom: 8px;
+    color: #4CAF50;
+}
+
+.tournament-settings input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.tournament-controls {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+}
+
+.countdown {
+    padding: 10px 20px;
+    background: rgba(33, 150, 243, 0.2);
+    color: #2196F3;
+    border-radius: 8px;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(33, 150, 243, 0.3);
+}
+
+.matches-section {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.matches-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.match-item {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.match-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.match-status {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.match-status.pending {
+    background: rgba(255, 193, 7, 0.2);
+    color: #ffc107;
+}
+
+.match-status.active {
+    background: rgba(76, 175, 80, 0.2);
+    color: #4CAF50;
+}
+
+.match-status.completed {
+    background: rgba(33, 150, 243, 0.2);
+    color: #2196F3;
+}
+
+@keyframes glow {
+    0% { box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); }
+    50% { box-shadow: 0 0 20px rgba(76, 175, 80, 0.8); }
+    100% { box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); }
+}
+
+.schedule-info {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.schedule-item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 20px;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    align-items: center;
+}
+
+.schedule-item:last-child {
+    border-bottom: none;
+}
+
+.error-message {
+    background: rgba(244, 67, 54, 0.2);
+    color: #f44336;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.websocket-control {
+    background: linear-gradient(45deg, #2196F3, #1976D2);
+    box-shadow: 0 0 10px rgba(33, 150, 243, 0.3);
+}
+
+.websocket-control:hover:not(:disabled) {
+    background: linear-gradient(45deg, #1976D2, #1565C0);
+    box-shadow: 0 0 15px rgba(33, 150, 243, 0.5);
+}
+
+.clear-reservations {
+    background: linear-gradient(45deg, #FF9800, #F57C00);
+    box-shadow: 0 0 10px rgba(255, 152, 0, 0.3);
+}
+
+.clear-reservations:hover:not(:disabled) {
+    background: linear-gradient(45deg, #F57C00, #EF6C00);
+    box-shadow: 0 0 15px rgba(255, 152, 0, 0.5);
+}
+
+.clear-reservations:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.notification-message {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    animation: slideDown 0.3s ease-out, fadeOut 0.3s ease-out 2.7s forwards;
+    white-space: nowrap;
+    max-width: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translate(-50%, -20px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(-50%, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.admin-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    padding: 20px;
+}
+
+.admin-login-form {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.admin-login-form h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 16px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-button:hover {
+    background: #45a049;
+}
+
+.login-error {
+    color: #ff6b6b;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.admin-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.logout-button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #ff6b6b;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.logout-button:hover {
+    background: #ff5252;
+}
+
+.admin-balance-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.admin-balance-content {
+    background: rgba(30, 30, 30, 0.95);
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(76, 175, 80, 0.3);
+}
+
+.admin-balance-header {
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-balance-header h3 {
+    margin: 0;
+    color: #4CAF50;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+}
+
+.admin-balance-body {
+    padding: 20px;
+}
+
+.admin-balance-amount {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.admin-balance-amount span {
+    font-weight: bold;
+    color: #4CAF50;
+    font-size: 22px;
+}
+
+.admin-transactions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.admin-transaction-item {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.transaction-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.transaction-type {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #808080;
+}
+
+.transaction-amount {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.transaction-description {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.transaction-date {
+    font-size: 12px;
+    color: #808080;
+    text-align: right;
+}
+
+.admin-balance-button {
+    background: #9c27b0;
+}
+
+.admin-balance-button:hover {
+    background: #7b1fa2;
+}
