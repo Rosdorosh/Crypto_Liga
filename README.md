@@ -3,6 +3,9 @@
 
 # 🏆 Crypto Liga - crypto game, sports competition simulator, with tournament gameplay, crypto teams competition and real cryptocurrency rewards.
 
+(beta version)Telegram Game bot: https://t.me/AGTI_league_bot
+Telegram for quick communication: https://t.me/Rosko_Dorosh
+
 1. Gameplay and tournament mechanics
 
 **Joining and registration.** 
