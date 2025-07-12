@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏆 Crypto Liga - crypto game, sports competition simulator, with tournament gameplay, crypto teams competition and real cryptocurrency rewards.
 
 1. Gameplay and tournament mechanics
@@ -149,3 +150,7 @@ Manual Deployment
 **⚠️ Disclaimer**: This is a crypto gaming platform. Please play responsibly and only invest what you can afford to lose. Cryptocurrency investments carry inherent risks.
 
  Crypto Liga developed by @Rosko_Dorosh ( https://t.me/Rosko_Dorosh ) 
+=======
+# Crypto_Liga
+Crypto game, sports competition simulator, with tournament gameplay, crypto teams competition and real cryptocurrency rewards.
+>>>>>>> f265dd31b426ec1e75718406f369a7051af69ae5
