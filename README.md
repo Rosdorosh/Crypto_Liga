@@ -1,4 +1,5 @@
-<img width="480" height="499" alt="scrin" src="https://github.com/user-attachments/assets/193d32f9-ca30-43f0-9ea2-4a2bbb622998" />
+<img width="1578" height="392" alt="Знімок екрана 2025-07-12 170633" src="https://github.com/user-attachments/assets/db9df69f-e80d-4d1d-9668-7d35540c0f35" />
+
 
 # 🏆 Crypto Liga - crypto game, sports competition simulator, with tournament gameplay, crypto teams competition and real cryptocurrency rewards.
 
