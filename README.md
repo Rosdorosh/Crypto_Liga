@@ -4,6 +4,8 @@
 
 (beta version)Telegram Game bot: https://t.me/AGTI_league_bot
 
+game website : https://cryptoliga.fun
+
 Telegram for quick communication: https://t.me/Rosko_EkoDim
 
 1. Gameplay and tournament mechanics
