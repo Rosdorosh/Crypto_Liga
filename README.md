@@ -4,7 +4,7 @@
 
 (beta version)Telegram Game bot: https://t.me/AGTI_league_bot
 
-Telegram for quick communication: https://t.me/Rosko_Dorosh
+Telegram for quick communication: https://t.me/Rosko_EkoDim
 
 1. Gameplay and tournament mechanics
 
@@ -155,6 +155,6 @@ Manual Deployment
 
 **⚠️ Disclaimer**: This is a crypto gaming platform. Please play responsibly and only invest what you can afford to lose. Cryptocurrency investments carry inherent risks.
 
- Crypto Liga developed by @Rosko_Dorosh ( https://t.me/Rosko_Dorosh ) 
+ Crypto Liga developed by @Rosko_EkoDim ( https://t.me/Rosko_EkoDim ) 
 =======
 # Crypto_Liga
