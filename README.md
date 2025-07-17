@@ -1,9 +1,9 @@
-<img width="1578" height="392" alt="Знімок екрана 2025-07-12 170633" src="https://github.com/user-attachments/assets/db9df69f-e80d-4d1d-9668-7d35540c0f35" />
-
+![about](https://github.com/user-attachments/assets/af913cdf-9e47-4f01-bff6-954a97d220e0)
 
 # 🏆 Crypto Liga - crypto game, sports competition simulator, with tournament gameplay, crypto teams competition and real cryptocurrency rewards.
 
 (beta version)Telegram Game bot: https://t.me/AGTI_league_bot
+
 Telegram for quick communication: https://t.me/Rosko_Dorosh
 
 1. Gameplay and tournament mechanics
@@ -34,6 +34,7 @@ By inviting friends, a player receives a share of their contributions; commissio
 **TON-chain transparency.** 
 All deposits, withdrawals and reward distributions are logged on-chain: every transaction can be verified through the block explorer, and in the game - through the built-in operation history.
 
+<img width="1024" height="1024" alt="5" src="https://github.com/user-attachments/assets/e62dc384-763a-4b7f-acaf-b3cb54bade9f" />
 
 3. Administrator Panel
 
